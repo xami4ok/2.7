@@ -1,0 +1,226 @@
+@charset "utf-8";
+
+.area1{
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    left: calc(50% - 300px/2 - 3.5px);
+    bottom: 658px;
+    
+    background: rgba(238, 237, 233, 0.74);
+    border: 1px solid rgba(113, 113, 113, 0.5);
+    border-radius: 20px;
+}
+
+.area2{
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    left: calc(50% - 300px/2 - 3.5px);
+    bottom: 588px;
+    
+    background: rgba(238, 237, 233, 0.74);
+    border: 1px solid rgba(113, 113, 113, 0.5);
+    border-radius: 20px;
+}
+
+.area3{
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    left: calc(50% - 300px/2 - 3.5px);
+    bottom: 518px;
+    
+    background: rgba(238, 237, 233, 0.74);
+    border: 1px solid rgba(113, 113, 113, 0.5);
+    border-radius: 20px;
+}
+
+
+.area4{
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    left: calc(50% - 300px/2 - 3.5px);
+    bottom: 448px;
+    
+    background: rgba(238, 237, 233, 0.74);
+    border: 1px solid rgba(113, 113, 113, 0.5);
+    border-radius: 20px;
+}
+
+.area5{
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    left: calc(50% - 300px/2 - 3.5px);
+    bottom: 378px;
+    
+    background: rgba(238, 237, 233, 0.74);
+    border: 1px solid rgba(113, 113, 113, 0.5);
+    border-radius: 20px;
+}
+
+.area6{
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    left: calc(50% - 300px/2 - 3.5px);
+    bottom: 308px;
+    
+    background: rgba(238, 237, 233, 0.74);
+    border: 1px solid rgba(113, 113, 113, 0.5);
+    border-radius: 20px;
+}
+
+.area7{
+    position: absolute;
+    width: 300px;
+    height: 40px;
+    left: calc(50% - 300px/2 - 3.5px);
+    bottom: 238px;
+    
+    background: rgba(238, 237, 233, 0.74);
+    border: 1px solid rgba(113, 113, 113, 0.5);
+    border-radius: 20px;
+}
+
+input::placeholder {
+    position: absolute;
+    width: 42px;
+    height: 23px;
+    left: calc(50% - 42px/2 - 115.5px);
+    bottom: 665px;
+    text-indent: 17px;
+
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #717171;
+}
+
+input[type=text] {
+    text-indent: 17px;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+input[type=password] {
+    text-indent: 17px;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+body::background {
+position: absolute;
+width: 558px;
+height: 1005px;
+left: -144px;
+top: -170px;
+}
+
+form { 
+    background-image: url(airaplan.jpg);
+    position: absolute;
+width:  375px;
+height: 812px;
+
+}
+
+button {
+    position: absolute;
+width: 300px;
+height: 40px;
+left: calc(50% - 300px/2 + 0.5px);
+bottom: 124px;
+border-radius: 20px;
+
+background: #A5A39F;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+a {
+    position: absolute;
+width: 208px;
+height: 25px;
+left: calc(50% - 208px/2 - 0.5px);
+bottom: 7px;
+
+font-family: Georgia;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 25px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #ffffff;
+}
+
+.polit {
+    position: absolute;
+    width: 250px;
+    height: 64px;
+    left: calc(50% - 242px/2 + 0.5px);
+    bottom: 50px;
+    
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    align-items: center;
+    text-align: center;
+    
+    color: #413A3A;  
+}
+
+.reg {
+    /* Регистрация */
+
+
+position: absolute;
+width: 230px;
+height: 31px;
+left: 69px;
+top: 53px;
+
+font-family: Georgia;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 41px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+
+input.error { 
+    border: 3px solid #ff0000;
+} 
+
+label.error { 
+    color: #ff0000; /** Меняем цвет текста при ошибке**/
+    font-weight: normal;
+     
+    text-align: center;
+    
+}
+
